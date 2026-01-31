@@ -1,10 +1,10 @@
-data "aws_ami" "ami" {
-  most_recent = true
+# data "aws_ami" "ami" {
+#   most_recent = true
 
-  filter {
-    name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
-  }
+#   filter {
+#     name   = "name"
+#     values = ["ami-0c398cb65a93047f2"]
+#   }
 
-  owners = ["024122569565"]
-}
+#   owners = ["024122569565"]
+# }
